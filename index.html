@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tensor Atelier</title>
+<meta name="description" content="A small workshop that builds software with AI and gives it away. Open-source projects, mostly free, supported on Patreon.">
+<meta property="og:title" content="Tensor Atelier">
+<meta property="og:description" content="Software built with AI, given away. Open-source projects, mostly free, supported on Patreon.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://tensoratelier.com/">
+<meta property="og:image" content="https://tensoratelier.com/img/arcsong.jpg">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="mark" href="#top" aria-label="Tensor Atelier home">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="3" width="26" height="26" rx="3"/><path d="M9 11h14M16 11v12M9 17h4M19 17h4M9 23h4M19 23h4"/></svg>
+    <span>Tensor Atelier</span>
+  </a>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a class="btn small" href="https://www.patreon.com/c/TensorAtelier">Patreon</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="eyebrow">An AI-assisted software workshop</p>
+    <h1>Things built with AI,<br><em>given away.</em></h1>
+    <p class="lede">Tensor Atelier makes software with AI tools and releases it for people to use, read and
+      change &mdash; open source, and mostly free. If you like what comes out of the workshop, you can
+      back the next project on Patreon.</p>
+    <div class="cta">
+      <a class="btn" href="#projects">See the projects</a>
+      <a class="btn ghost" href="https://www.patreon.com/c/TensorAtelier">Support on Patreon &rarr;</a>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="section-head">
+      <h2>Projects</h2>
+      <p>Everything here has its source on <a href="https://github.com/TensorAtelier">GitHub</a>.</p>
+    </div>
+
+    <!-- To add a project: copy an <article class="card"> block, add a 1200px-wide image to img/. -->
+    <div class="grid">
+
+      <article class="card">
+        <a class="shot" href="https://github.com/TensorAtelier/arcsong"><img src="img/arcsong.jpg" alt="Arcsong comparing two generated takes of a song, with waveforms" loading="lazy" width="1200" height="481"></a>
+        <div class="body">
+          <div class="meta"><span>Music</span><span>macOS &middot; Apple Silicon</span><span>v0.1</span></div>
+          <h3>Arcsong</h3>
+          <p>Write a style and some lyrics, get a whole song &mdash; vocals and accompaniment &mdash; generated
+            on your own Mac with the YuE2 model. Compare takes, edit the melody as a score, keep a library.
+            Nothing leaves the machine.</p>
+          <div class="links">
+            <a href="https://github.com/TensorAtelier/arcsong">GitHub</a>
+            <a href="https://github.com/TensorAtelier/arcsong#install">Install</a>
+            <span class="lic">Apache-2.0</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card">
+        <a class="shot" href="https://github.com/TensorAtelier/fun-sim"><img src="img/fun-sim.jpg" alt="Build a Net: a convolution kernel sliding over an input grid, with the output shape worked out" loading="lazy" width="1200" height="750"></a>
+        <div class="body">
+          <div class="meta"><span>Learning</span><span>Browser</span></div>
+          <h3>Fun Sim</h3>
+          <p>Math and physics you can poke at: Fourier epicycles, a rocket to orbit, an N-body solar system,
+            chaotic pendulums, gas, statistics. Plus <strong>Build a Net</strong>, a game that teaches
+            neural networks by wiring them from parts &mdash; convolutions up to Transformers,
+            mixture-of-experts and learning from reward.</p>
+          <div class="links">
+            <a href="https://github.com/TensorAtelier/fun-sim">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="card next">
+        <div class="body">
+          <p class="eyebrow">On the bench</p>
+          <h3>More on the way</h3>
+          <p>New projects land here as they ship. Patreon backers hear about them first.</p>
+          <div class="links"><a href="https://www.patreon.com/c/TensorAtelier">Follow on Patreon</a></div>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="section-head"><h2>About</h2></div>
+    <div class="cols">
+      <div>
+        <h3>What this is</h3>
+        <p>An atelier is a workshop where things get made by hand. This one is run by one person working
+          with AI coding tools: pick an idea, build it properly, and put it out in the open with the source.</p>
+      </div>
+      <div>
+        <h3>Why it's free</h3>
+        <p>It's an experiment in whether people will back work like this. The projects stay open source and
+          free to use; nothing is locked behind the paywall.</p>
+      </div>
+      <div>
+        <h3>How to help</h3>
+        <p>Back it on <a href="https://www.patreon.com/c/TensorAtelier">Patreon</a> if you'd like more of it.
+          Or just use the things, star the repos, and file issues on
+          <a href="https://github.com/TensorAtelier">GitHub</a> when something breaks.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="support">
+    <h2>Like what's being made?</h2>
+    <p>Patreon support pays for the time and the machines that build the next project.</p>
+    <a class="btn" href="https://www.patreon.com/c/TensorAtelier">Support Tensor Atelier on Patreon</a>
+  </section>
+
+</main>
+
+<footer>
+  <span>&copy; 2026 Tensor Atelier</span>
+  <nav>
+    <a href="https://github.com/TensorAtelier">GitHub</a>
+    <a href="https://www.patreon.com/c/TensorAtelier">Patreon</a>
+    <!-- Social links go here once the accounts exist. -->
+  </nav>
+</footer>
+
+</body>
+</html>
