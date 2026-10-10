@@ -1,0 +1,4 @@
+# Files kept in the repo but not served on tensoratelier.com
+exclude:
+  - README.md
+  - TARGET.md
